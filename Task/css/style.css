@@ -4,20 +4,20 @@ body {
 }
 
 .nav-link-custom {
-    color: #374151; /* gray-700 */
+    color: #374151; 
 }
 
 .dark-mode .nav-link-custom {
     color: white;
 }
 
-/* DARK MODE - Main */
+/* DARK MODE */
 .dark-mode {
     background-color: #0f172a !important;
     color: #e5e7eb !important;
 }
 
-/* Override Tailwind backgrounds */
+
 .dark-mode .bg-gray-50,
 .dark-mode .bg-white {
     background-color: #1e293b !important;
@@ -39,11 +39,11 @@ body {
 /* Theme Toggle Button */
 .dark-mode .btn-light {
     background-color: #e2e8f0 !important;
-    color: #1e293b !important;     /* Dark text for visibility */
+    color: #1e293b !important;   
     font-weight: 600;
 }
 
-/* Make sure toggle button is always visible */
+
 
 
 #themeToggle {
