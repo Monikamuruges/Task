@@ -1,0 +1,64 @@
+/* Smooth transition */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link-custom {
+    color: #374151; /* gray-700 */
+}
+
+.dark-mode .nav-link-custom {
+    color: white;
+}
+
+/* DARK MODE - Main */
+.dark-mode {
+    background-color: #0f172a !important;
+    color: #e5e7eb !important;
+}
+
+/* Override Tailwind backgrounds */
+.dark-mode .bg-gray-50,
+.dark-mode .bg-white {
+    background-color: #1e293b !important;
+    color: #e5e7eb !important;
+}
+
+/* Inputs */
+.dark-mode input {
+    border-color: #475569 !important;
+    color: #e5e7eb !important;
+}
+
+/* Buttons  */
+.dark-mode .bg-blue-600 {
+    background-color: #2563eb !important;
+    color: white !important;
+}
+
+/* Theme Toggle Button */
+.dark-mode .btn-light {
+    background-color: #e2e8f0 !important;
+    color: #1e293b !important;     /* Dark text for visibility */
+    font-weight: 600;
+}
+
+/* Make sure toggle button is always visible */
+
+
+#themeToggle {
+    font-weight: 500;
+}
+
+/* Text colors */
+.dark-mode .text-gray-600,
+.dark-mode p,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: #e5e7eb !important;
+}
+
+.dark-mode input::placeholder {
+    color: #94a3b8 !important;
+}

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Boarding Network</title>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+   <nav class="bg-white shadow-sm py-4 sticky top-0 ">
+
+    <div class="container flex justify-between items-center">
+
+        <h2 class="text-2xl font-bold text-blue-600">
+            PetBoard
+        </h2>
+
+        <div class="flex gap-6">
+
+            <a href="#home" class="nav-link-custom hover:text-blue-600">
+                Home
+            </a>
+
+            <a href="#about" class="nav-link-custom hover:text-blue-600">
+                About
+            </a>
+
+            <a href="#services" class="nav-link-custom hover:text-blue-600">
+                Services
+            </a>
+
+            <a href="#pricing" class="nav-link-custom hover:text-blue-600">
+                Pricing
+            </a>
+
+            <a href="#contact" class="nav-link-custom hover:text-blue-600">
+                Contact
+            </a>
+<button id="themeToggle" class="btn btn-dark ms-3">
+    Dark Mode
+</button>
+
+        </div>
+
+    </div>
+
+</nav>
+
+    <!-- HERO SECTION -->
+   <section id="home" class="container py-5">
+
+    <div class="flex flex-col md:flex-row items-center gap-10">
+
+       
+
+        <div class="flex-1">
+
+            <h1 class="text-5xl font-bold">
+                Find Trusted Pet Sitters
+            </h1>
+
+            <p class="text-gray-600 mt-4">
+                Connect with reliable pet sitters and house sitters
+                for your furry friends.
+            </p>
+
+            <div class="mt-6">
+
+<a
+                    href="findsitter.html"
+                    class="inline-flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 no-underline">
+                    Find a Pet Sitter
+                </a>
+
+                <button
+                    class="border border-blue text-black-600 px-6 py-3 rounded-lg no-underline">
+
+                    <a href="became-sitter.html"> Become a Sitter</a>
+
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="flex-1">
+
+            <img
+                src="https://images.unsplash.com/photo-1547525623-c7d42c20284c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHBldCUyMHNpdHRpbmd8ZW58MHx8MHx8fDA%3D"
+                alt="Pet"
+                class="w-full max-w-md mx-auto rounded-xl shadow-lg">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- ABOUT -->
+<section id="about" class="py-5 bg-blue-400">
+
+    <div class="container">
+
+        <div class="flex flex-col md:flex-row items-center gap-10">
+
+            <!-- LEFT IMAGE -->
+            <div class="flex-1">
+                <img
+                    src="https://images.unsplash.com/photo-1650219680750-6218ac8efbb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM3fHxkb2clMjBhbmQlMjBjYXR8ZW58MHx8MHx8fDA%3D"
+                    class="w-full max-w-md mx-auto rounded-xl shadow-lg"
+                    alt="About Pet Care">
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="flex-1">
+
+                <h2 class="text-3xl font-bold mb-4">
+                    About Us
+                </h2>
+
+                <p class="text-gray-600 leading-relaxed">
+                    We connect pet owners with trusted pet sitters and boarding services.
+                    Our mission is to ensure your pets receive safe, loving, and professional care
+                    while you are away.
+                </p>
+
+                <button class="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+                    Learn More
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="py-5 ">
+
+    <div class="container">
+
+        <!-- Title -->
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Our Services
+        </h2>
+
+        <!-- Cards -->
+        <div class="flex flex-col md:flex-row gap-6">
+
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-xl flex-1 text-center">
+                <h3 class="text-xl font-semibold text-blue-600">
+                    Pet Boarding
+                </h3>
+                <p class="text-gray-600 mt-3">
+                    Safe and comfortable boarding for your pets.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-xl flex-1 text-center">
+                <h3 class="text-xl font-semibold text-blue-600">
+                    House Sitting
+                </h3>
+                <p class="text-gray-600 mt-3">
+                    Trusted sitters to take care of your home.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-xl flex-1 text-center">
+                <h3 class="text-xl font-semibold text-blue-600">
+                    Dog Walking
+                </h3>
+                <p class="text-gray-600 mt-3">
+                    Daily walks and care for your pets.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- WHY CHOOSE US -->
+  <section id="why" class="py-5 bg-gray-50">
+
+    <div class="container">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Why Choose Us
+        </h2>
+
+     
+        <div class="flex flex-col gap-4">
+
+            <div class="bg-white p-5 rounded-xl shadow flex items-center justify-between">
+                <h3 class="font-semibold text-blue-600">
+                    Verified Sitters
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Background checked professionals you can trust
+                </p>
+            </div>
+
+            <div class="bg-white p-5 rounded-xl shadow flex items-center justify-between">
+                <h3 class="font-semibold text-blue-600">
+                    24/7 Support
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    We are always available when you need help
+                </p>
+            </div>
+
+            <div class="bg-white p-5 rounded-xl shadow flex items-center justify-between">
+                <h3 class="font-semibold text-blue-600">
+                    Affordable Pricing
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    High quality service at reasonable cost
+                </p>
+            </div>
+
+            <div class="bg-white p-5 rounded-xl shadow flex items-center justify-between">
+                <h3 class="font-semibold text-blue-600">
+                    Trusted Community
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Thousands of happy pet owners
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- TESTIMONIALS -->
+   <section id="testimonials" class="py-5 bg-blue-400">
+
+    <div class="container">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Testimonials
+        </h2>
+
+        <!-- Cards -->
+        <div class="flex flex-col md:flex-row gap-6">
+
+            <!-- Testimonial 1 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow flex-1">
+
+                <p class="text-gray-600">
+                    "Amazing service! My dog was well taken care of and I felt very safe."
+                </p>
+
+                <h4 class="mt-4 font-semibold text-blue-600">
+                    - Sarah
+                </h4>
+
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow flex-1">
+
+                <p class="text-gray-600">
+                    "Very professional sitters. I will definitely use this service again."
+                </p>
+
+                <h4 class="mt-4 font-semibold text-blue-600">
+                    - John
+                </h4>
+
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow flex-1">
+
+                <p class="text-gray-600">
+                    "Affordable and trustworthy platform for pet care services."
+                </p>
+
+                <h4 class="mt-4 font-semibold text-blue-600">
+                    - Priya
+                </h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <section id="faq" class="py-5 bg-gray-50">
+
+    <div class="container">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Frequently Asked Questions
+        </h2>
+
+        <div class="space-y-4">
+
+            <!-- Item 1 -->
+            <div class="bg-white p-5 rounded-xl shadow">
+
+                <h4 class="font-semibold text-blue-600">
+                    How do I find a sitter?
+                </h4>
+
+                <p class="text-gray-600 mt-2">
+                    Browse available sitters and choose the best match based on reviews and availability.
+                </p>
+
+            </div>
+
+            <!-- Item 2 -->
+            <div class="bg-white p-5 rounded-xl shadow">
+
+                <h4 class="font-semibold text-blue-600">
+                    Is the service safe?
+                </h4>
+
+                <p class="text-gray-600 mt-2">
+                    Yes, all sitters are verified and background-checked.
+                </p>
+
+            </div>
+
+            <!-- Item 3 -->
+            <div class="bg-white p-5 rounded-xl shadow">
+
+                <h4 class="font-semibold text-blue-600">
+                    What is the pricing?
+                </h4>
+
+                <p class="text-gray-600 mt-2">
+                    Pricing depends on service type and duration, starting from affordable rates.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--Pricing-->
+
+
+<section id="pricing" class="py-5 bg-gray-50">
+
+    <div class="container">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Pricing Plans
+        </h2>
+
+        <div class="flex flex-col md:flex-row gap-6">
+
+            <!-- Basic -->
+            <div class="bg-white p-6 rounded-xl shadow flex-1 text-center">
+
+                <h3 class="text-xl font-bold text-blue-600">
+                    Basic
+                </h3>
+
+                <p class="text-3xl font-bold mt-3">
+                    ₹499
+                </p>
+
+                <p class="text-gray-600 mt-2">
+                    Per visit
+                </p>
+
+                <ul class="mt-4 text-gray-600 space-y-2">
+                    <li>✔ Pet Feeding</li>
+                    <li>✔ Basic Care</li>
+                    <li>✔ 1 Hour Visit</li>
+                </ul>
+
+                <button class="mt-5 bg-blue-600 text-white px-5 py-2 rounded-lg">
+                    Choose Plan
+                </button>
+
+            </div>
+
+            <!-- Standard -->
+            <div class="bg-white p-6 rounded-xl shadow flex-1 text-center">
+
+                <h3 class="text-xl font-bold text-blue-600">
+                    Standard
+                </h3>
+
+                <p class="text-3xl font-bold mt-3">
+                    ₹999
+                </p>
+
+                <p class="text-gray-600 mt-2">
+                    Per day
+                </p>
+
+                <ul class="mt-4 text-gray-600 space-y-2">
+                    <li>✔ Pet Walking</li>
+                    <li>✔ Feeding & Care</li>
+                    <li>✔ 6 Hour Coverage</li>
+                </ul>
+
+                <button class="mt-5 bg-blue-600 text-white px-5 py-2 rounded-lg">
+                    Choose Plan
+                </button>
+
+            </div>
+
+            <!-- Premium -->
+            <div class="bg-white p-6 rounded-xl shadow flex-1 text-center">
+
+                <h3 class="text-xl font-bold text-blue-600">
+                    Premium
+                </h3>
+
+                <p class="text-3xl font-bold mt-3">
+                    ₹1999
+                </p>
+
+                <p class="text-gray-600 mt-2">
+                    Full day
+                </p>
+
+                <ul class="mt-4 text-gray-600 space-y-2">
+                    <li>✔ Full Day Sitting</li>
+                    <li>✔ Grooming</li>
+                    <li>✔ 24/7 Care</li>
+                </ul>
+
+                <button class="mt-5 bg-blue-600 text-white px-5 py-2 rounded-lg">
+                    Choose Plan
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contacts-->
+<section id="contact" class="py-5 bg-blue-400">
+
+    <div class="container">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Contact Us
+        </h2>
+
+        <div class="max-w-xl mx-auto">
+
+            <form class="space-y-4">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                <textarea
+                    placeholder="Your Message"
+                    rows="5"
+                    class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+                <button
+                    class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+    <!-- FOOTER -->
+    <footer class = "p-10">
+
+        <p class=" text-center mb-10 ">
+            © 2026 PetBoard. All Rights Reserved.
+        </p>
+
+    </footer>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
