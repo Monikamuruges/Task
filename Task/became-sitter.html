@@ -14,7 +14,7 @@
             Become a Pet Sitter
         </h1>
 
-        <form class="bg-white p-6 rounded-xl shadow space-y-4">
+        <form id="sitterForm" class="bg-white p-6 rounded-xl shadow space-y-4">
 
             <input type="text" placeholder="Full Name"
                 class="w-full border p-3 rounded-lg">
@@ -32,7 +32,17 @@
         </form>
 
     </div>
+    <script>
+    document.getElementById("sitterForm").addEventListener("submit", function (e) {
+    e.preventDefault(); 
+
+    alert("Application submitted successfully!");
+
+    this.reset(); 
+});
+</script>
 
     <script src="./js/script.js"></script>
+    
 </body>
 </html>
